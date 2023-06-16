@@ -1,0 +1,49 @@
+@import '../../scss/_variables.scss';
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius;
+  background-color: $secondary-color;
+  margin-bottom: 20px;
+
+  .signup-form {
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .form-field {
+      margin-bottom: 20px;
+      height: 69px;
+
+      .password-field {
+        .MuiFormHelperText-root {
+          letter-spacing: 0px;
+        }
+      }
+    }
+
+    .button {
+      margin-top: 10px;
+
+      &.ml-10 {
+        margin-left: 10px;
+      }
+    }
+
+    .login-text {
+      float: right;
+      margin-top: 16px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../scss/variables";
+
+.account-settings-container {
+  background-color: $secondary-color;
+
+  .right-container {
+    float: right;
+    width: 74%;
+
+    .account-setting-right-tab {
+      background-color: $secondary-color;
+      width: inherit;
+    
+      .form-field {
+        height: 69px;
+        margin-bottom: 20px;
+      }
+    
+      h6 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .change-password-right-tab {
+      background-color: $secondary-color;
+      width: inherit;
+    
+      .form-field {
+        height: 69px;
+        margin-bottom: 20px;
+      }
+    
+      h6 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .left-container {
+    float: left;
+    width: 26%;
+
+    .MuiList-root {
+      padding-top: 0px;
+      
+      .MuiListItemText-root {
+        padding-top: 12px;
+      }
+
+      .MuiListItem-root {
+        padding-top: 0px;
+      }
+    }
+  }
+}
+
+
